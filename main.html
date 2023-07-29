@@ -9,12 +9,14 @@
 
 <body>
 	<h3 >List of all transcations</h3>
-	<table class="table font-monospace text-end fw-bold" >
-		<thead class="bg-dark">
+	<table class="table font-monospace text-end fw-bold table-hover table-responsive" >
+		<thead class="table-dark text-white">
+			<tr>
 			<th scope="col">#</th>
 			<th scope="col">From</th>
 			<th scope="col">To</th>
 			<th scope="col">Amounts($)</th>
+			</tr>
 		</thead>
 		<tr>
 			<th scope="row">1</th>
@@ -34,9 +36,10 @@
 			<td>John</td>
 			<td>2000</td>
 		</tr>
-		<td colspan="4" id="total">
-			Total 4000</td>
-		</tr>
+		<tfoot>
+		<td colspan="3" id="total">
+			Total  4000</td>
+		</tfoot>
 	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
